@@ -31,6 +31,16 @@ namespace UC_CASE
                     Console.WriteLine("Emp wage : " + empWage);
                     break;
 
+                case 3:
+                    //code block
+                    //Constants
+                    Random random = new Random();
+                    //computation
+                    int empCheck = random.Next(0, 3);
+                    Console.WriteLine("Emp wage :  + empWage");
+                    break;
+
+
                 default:
                     //code block
                     Console.WriteLine("please choose number within given");

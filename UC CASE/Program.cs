@@ -13,10 +13,24 @@ namespace UC_CASE
             {
                 case 1:
                     //code block
-                    Random random = new Random();
+                    //constants
+                    int IS_FULLTIME = 1;
                     Console.WriteLine("Employee is present");
                     Console.WriteLine("Employee is absent");
                     break;
+
+                case 2:
+                    //code block
+                    //Constants
+                    int Is_FullTime = 1;
+                    int EmpRatePerHour = 20;
+                    //Variables
+                    int empHrs = 0;
+                    int empWage = 0;
+                    empWage = empHrs * EmpRatePerHour;
+                    Console.WriteLine("Emp wage : " + empWage);
+                    break;
+
                 default:
                     //code block
                     Console.WriteLine("please choose number within given");
